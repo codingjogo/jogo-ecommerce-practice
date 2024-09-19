@@ -5,7 +5,7 @@
 ## Resources
 
 ## Roadmap
-[] - Clerk Authentication
-[] - Product Management Moudle
-[] - Inventory Management Module
-[] - Customer Management Module
+- [ ] Clerk Authentication
+- [ ] Product Management Moudle
+- [ ] Inventory Management Module
+- [ ] Customer Management Module
