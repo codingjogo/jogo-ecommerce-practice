@@ -1,17 +1,19 @@
-import Header from "@/components/header";
+import React from 'react'
+import Navbar from './components/Navbar'
 
-export default function SetupLayout({
-	children,
-}: Readonly<{
-	children: React.ReactNode;
-}>) {
-	// TODO: Set up the Authentication of Clerk here
-	return (
-		<>
-			<Header />
-			<main className="container p-5 md:p-0">
-				{children}
-			</main>
-		</>
-	);
+const SetupLayout = ({children} : {
+    children: React.ReactNode,
+}) => {
+  return (
+    <>
+        <header className='container'>
+            <Navbar />
+        </header>
+        <main className='container'>
+            {children}
+        </main>
+    </>
+  )
 }
+
+export default SetupLayout
